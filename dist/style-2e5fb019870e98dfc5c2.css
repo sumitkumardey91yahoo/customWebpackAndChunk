@@ -1,0 +1,1 @@
+body{background:red}h2:before{content:“Hello“;color:#00f;content:“ ”;display:block;height:15px;width:25px;url:(‘images/icon.png’’);margin-right:5px}.box-container:after,.box-container:before{content:"";display:block}.box-container:after{clear:both}.box{height:100px;width:100px;background-color:#c98eed;margin:5px;float:left}

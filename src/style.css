@@ -1,0 +1,38 @@
+body {
+ background: red;
+}
+
+
+h2:before {
+    content: “Hello“;
+    color : blue;
+}
+
+
+
+h2:before {
+    content: “ ”;
+    display: block;
+    height: 15px;
+    width: 25px;
+    url: (‘images/icon.png’’);
+    margin-right: 5px;
+}
+
+
+
+.box-container:before,
+.box-container:after {
+    content: "";
+    display: block;
+}
+.box-container:after {
+    clear: both;
+}
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: #C98EED;
+    margin: 5px;
+    float: left;
+}
